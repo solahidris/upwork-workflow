@@ -4,7 +4,7 @@ import { Badge } from "./ui/badge";
 
 export default function Navbar() {
   return (
-    <div className="bg-black min-h-[100vh] w-[252px] text-white p-0 flex flex-col gap-5">
+    <div className="bg-black min-h-[100vh] w-60 lg:min-w-[252px] text-white p-0 flex flex-col gap-5">
 
       <Image src="/Logo.png" width={100} height={100} alt="logoNavbar" className="px-4 w-[143px] pt-5" />
       
